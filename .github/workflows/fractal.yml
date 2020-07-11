@@ -1,0 +1,52 @@
+name: Generate fractal for user README
+
+on:
+  schedule:
+  - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+jobs:
+  fractal:
+    name: Generate fractal for user README
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout current repo
+      uses: actions/checkout@v5
+      with:
+        path: main-repo
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Checkout Fractal repo
+      uses: actions/checkout@v5
+      with:
+        repository: "jb3/fractal"
+        path: fractal-repo
+
+    - name: Remove old fractal
+      run: |
+        cd main-repo
+        git rm fractal-*.png
+    
+    - name: Build and run fractal generator
+      run: |
+        cd fractal-repo
+        FRACTAL_NAME="fractal-$(date +'%Y%m%d-%H%M%S').png"
+        echo "FRACTAL_NAME=$FRACTAL_NAME" >> $GITHUB_ENV
+        cargo run --release $(date +'%N') ../main-repo/$FRACTAL_NAME --border-radius 40
+    
+    - name: Template README
+      run: |
+        cd main-repo
+        sed "s|{FRACTAL_LINK}|$FRACTAL_NAME|g" README.md.template > README.md
+    
+    - name: Commit and push changes
+      run: |
+        cd main-repo
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add fractal-*.png README.md
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update fractal - $(date +'%Y-%m-%d %H:%M:%S')" && git push)
