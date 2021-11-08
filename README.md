@@ -1,10 +1,8 @@
 ## Hi there, I'm Joe! 👋
 
-I'm Joe, a Computer Science student working primarily with Python, Rust and Elixir!
+I'm Joe, a Computer Science student at the [University of Nottingham](https://cs.nott.ac.uk) working primarily with Python, Rust and Elixir!
 
-I spend most of my time working as an Owner at [Python Discord](https://pythondiscord.com/), focusing mainly on our infrastructure and technology.
-
-I'm starting Computer Science at University level this September!
+I spend most of my time working as an Owner at [Python Discord](https://pythondiscord.com/), focusing mainly on our infrastructure and technology which includes tooling such as Kubernetes, NGINX (particularly nginx-ingress), PostgreSQL and Prometheus/Grafana.
 
 Check out some of my projects below and be sure to hit me up on Discord at `@joe#6000`, email `joe@jb3.dev` or join my personal Discord server at [jb3.dev/discord](https://jb3.dev/discord).
 
