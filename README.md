@@ -2,7 +2,7 @@
 
 I'm Joe, a Computer Science student at the [University of Nottingham](https://cs.nott.ac.uk) working primarily with Python, Rust and Elixir!
 
-I spend most of my time working as an Owner at [Python Discord](https://pythondiscord.com/), focusing mainly on our infrastructure and technology which includes tooling such as Ansible, NGINX, Django, PostgreSQL and Prometheus/Grafana.
+I'm a co-founder of [Python Discord](https://pythondiscord.com/), where I focused on the set up of our comprehensive technical infrastructure which includes tooling such as Ansible, NGINX, Django, PostgreSQL and Prometheus/Grafana.
 
 Check out some of my projects below and be sure to hit me up on Discord at `@joe#6000`, email `joe@jb3.dev` or join my personal Discord server at [jb3.dev/discord](https://jb3.dev/discord).
 
