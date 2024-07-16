@@ -1,8 +1,14 @@
-## Hi there, I'm Joe! 👋
+# Hey, I'm Joe!
 
-I'm Joe, a Computer Science student at the [University of Nottingham](https://cs.nott.ac.uk) working primarily with Python, Rust and Elixir!
+I'm a Software & DevOps Engineer based in the UK, and a Fellow of the Python Software Foundation.
 
-I'm a co-founder of [Python Discord](https://pythondiscord.com/), where I focused on the set up of our comprehensive technical infrastructure which includes tooling such as Kubernetes, Ansible, NGINX, Django, PostgreSQL and Prometheus/Grafana.
+I'm passionate about open-source software, automation, and building communities. I'm always looking for new and exciting projects to work on. I'm interested in a wide range of technologies, but I have a particular fondness for Python, Kubernetes, and Ansible. I also am interested in the nitty-gritty of how the internet works, and have a particular fondness for DNS and BGP.
+
+I work primarily in Python, but am also happy working in JavaScript/TypeScript, Elixir, Golang or Erlang.
+
+I'm co-founder of [Python Discord](https://pythondiscord.com), one of the largest programming communities on the planet with over 380,000 members. I also undertake the role of DevOps Lead for the community, maintaining our Kubernetes and Ansible based infrastructure.
+
+I am also the administrator of the hobbyist [AS211224](https://jb3.dev/as211224/) network, a small, IPv6-only network that I use to experiment with BGP and other networking technologies.
 
 Check out some of my projects below and be sure to hit me up on Discord at `@joe.banks` or email `joe@jb3.dev`.
 
