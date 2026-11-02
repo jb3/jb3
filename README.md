@@ -1,4 +1,4 @@
-<a href="https://github.com/jb3/fractal"><img width="256px" src="fractal-20261102-063936.png"/></a>
+<a href="https://github.com/jb3/fractal"><img width="256px" src="fractal-20261102-163401.png"/></a>
 
 <sub>**Full projects and portfolio available at [jb3.dev](https://jb3.dev/)**</sub>
 
